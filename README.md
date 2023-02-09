@@ -1,2 +1,2 @@
-# holbertonschool-Fun-with-CSS
-😆🎨 - CSS is fun!
+# CSS is fun! 😆
+Implementing fun designs with pure HTML and CSS 🖌🎨
