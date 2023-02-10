@@ -1,0 +1,17 @@
+/**
+  😲 OMG!! This is really awesome jajaja, this guy is a machine:
+  https://stackoverflow.com/questions/10462544/how-can-i-toggle-between-2-images 😳
+  To remember!
+ */
+
+input {
+  display: none;
+}
+
+.toggle-inner {
+  content: url("./images/Checked.png");
+}
+
+.toggle-cb:checked + .toggle-label {
+  content: url("./images/Unchecked.png");
+}
