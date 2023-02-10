@@ -1,0 +1,24 @@
+h2 a {
+  position: relative;
+  color: #9C1C3A;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+h2 a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background-color: #9C1C3A;
+  transform: scaleX(0);
+  transform-origin: bottom left;
+  transition: 0.25s ease-in;
+}
+
+h2 a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
